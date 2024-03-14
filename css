@@ -1,0 +1,171 @@
+@import url(https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap);
+
+h1 {
+  font-family: 'Press start 2P', serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.button-pokemon {
+  font-family: 'Press start 2P', serif;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  
+}
+#yourPokemon{
+  font-family: 'Press start 2P', serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: centre;
+  align-items: baseline;
+  padding: 5px;
+  padding-top: 7px;
+}
+#subtitle{
+  font-size: 1rem;
+}
+
+#pikachu-select {
+  padding-top: 10px;
+  
+}
+
+#pikachu-select:hover {
+  color: #F6CF57;
+}
+
+#pikachu-select > div {
+  padding-top: 23px;
+  pointer-events:auto;
+}
+
+#bulbasaur-select:hover {
+  color: #70e0bb;
+}
+
+#bulbasaur-select > div {
+  padding-top: 26px;
+  pointer-events:auto;
+}
+
+#charmander-select:hover {
+  color: #F15F3E;
+}
+
+#charmander-select > div {
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+ justify-items: center;
+  pointer-events:auto;
+}
+
+#squirtle-select:hover {
+  color: #85cbc0;
+
+}
+
+#squirtle-select > div {
+  padding-left: 10px;
+  pointer-events:auto;
+}
+
+#finalSubmit {
+  font-family: 'Press start 2P', serif;
+  font-size: 20px;
+  display: flex;
+  justify-content: centre;
+  align-items: baseline;
+  padding: 5px;
+  padding-top: 7px;
+}
+
+#selected {
+  font-family: 'Press start 2P', serif;
+  font-size: 20px;
+  padding-top: 25px
+}
+
+#gym-leader {
+  font-family: 'Press start 2P', serif;
+  font-size: 20px;
+  visibility: hidden;
+}
+
+#fight {
+  display: inline-block;
+  justify-content: center;
+}
+
+
+#VS {
+  visibility: hidden;
+}
+
+.vsAnnouncement {
+  font-family: 'Press start 2P', serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.countdown {
+  font-family: 'Press start 2P', serif;
+  font-size: 50px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  visibility: hidden;
+}
+
+
+#battleScene{
+  background-color:none;
+  width: 60rem;
+  height: 20rem;
+  margin: auto;
+  padding: 2rem;
+  font-family: 'Press start 2P', serif;
+  font-size: 30px;
+  visibility: hidden;
+}
+
+#heroFight {
+  text-align: left;
+  text-align: down;
+} 
+
+#HealthHero{
+  text-align: left;
+  text-align: down;
+}
+
+#enemyFight{
+  text-align: right;
+} 
+
+#HealthEnemy{
+  text-align: right;
+}
+
+.battleButtons{
+  justify-content: center;
+  display: flex;
+  
+  
+}
+
+.actionButtons{
+  font-family: 'Press start 2P', serif;
+  font-size: 20px;
+  padding: 5px;
+  position: relative;
+  margin: 10px;
+ visibility:hidden;
+  
+
+}
+
+
