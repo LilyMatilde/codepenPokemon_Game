@@ -1,0 +1,76 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<!--The first section of the game, choose your Pokemon-->
+<h1>Choose your Pokémon!</h1>
+
+  <div class="button-pokemon">
+    <div id="pikachu-select" onClick="selectPokemon("Pikachu")">
+      <img src = "https://media.tenor.com/RcvyjnoY_qEAAAAi/pokemon.gif" alt="Pikachu" width="150px">
+      <div>Pikachu</div>
+    </div>
+    <div id="bulbasaur-select">
+      <img src = "https://media.tenor.com/6nHb-yHC2pkAAAAi/bulbasaur.gif" alt = "Bulbasaur" width="150px">
+      <div>Bulbasaur</div>
+     </div>
+     <div id="charmander-select">
+       <img src = "https://media.tenor.com/jwHkGGFNoH8AAAAi/shiny-charmander-pokemon.gif" alt = "Charmander" width="150px">
+      <div>Charmander</div>
+    </div>
+     <div id="squirtle-select">
+        <img src = "https://media.tenor.com/1kwghmR6tkQAAAAi/gggg.gif" alt = "Squirtle" width="180px">
+      <div>Squirtle</div>
+   </div>
+</div>
+<!--here is the section you get your pokemon-->
+
+<div id ="selected">You have selected <span id="user-pokemon"></span>
+ <br>
+  <button id='yourPokemon'> Accept?</button> 
+  <p id = 'subtitle'> Otherwise, select another pokemon</p>
+</div>
+<!--This is the second section of the game, Pokemon opponent-->
+
+<button  id= 'finalSubmit' onclick="submitDisappear()">Submit</button>
+<!--should i use 'onclick="submitButton()-->
+
+<div id="gym-leader">Your archnemesis Randy chooses <span id="computer-pokemon"> </span></div>
+ 
+<!--This is the third section of the game, Pokemon arena & countdown-->
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<ul class="countdown">
+  <div id = "fight">FIGHT!</div>
+  <div id ="elipses">...</div>
+  <div id ="num1">1</div>
+  <div id ="num2">2</div>
+  <div id ="num3">3</div>
+</ul>
+<div class = 'vsAnnouncement'>
+<span id="hero"> </span> <p id= 'VS'>  VS</p> <span id="enemy"> </span>
+</div>
+
+<!--This is the fourth section of the game, Pokemon fight-->
+
+<div id='battleScene'>
+  <div>
+ <p id = 'enemyFight'> </p>
+  <p id= 'HealthEnemy'> </p> 
+  </div>
+  <div>
+  <span id = 'heroFight'> </span>
+  <p id = 'HealthHero'> </p>
+    </div>
+  
+  <div class = 'battleButtons'>
+  <button class = 'actionButtons' id = 'fightButton'> Fight!</button>
+  <button class = 'actionButtons' id = 'defend'> Defend </button>
+</div>
+</div>
+
+
